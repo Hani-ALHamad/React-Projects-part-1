@@ -19,7 +19,7 @@
 -15: useState, useEffect, useContext, useCallback, useParams, React Router.  
 -used React Icons in many of them as well.   
 
-i guess that the css blur effect made the main website laggy for old devices , also its JS code is a bit messy 😅
+i guess that the css blur effect made the main website abit laggy for old devices , also its JS code is a bit messy 😅
 
 image for (16-React-Projects):  
 ![alt text](https://raw.githubusercontent.com/Hani-ALHamad/React-Projects-part-1/main/16-React-Projects/src/pages/data/bonus.jpg)
