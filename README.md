@@ -12,7 +12,7 @@
 
 • I made their CSS to be compatible with mobile devices (dynamic width).
 
-• These files are development build, I made production builds and uploaded them to Netlify. 
+• These files are development build, I made production builds and uploaded them to Netlify.  
 • Part 2: *not ready yet*
 
 
