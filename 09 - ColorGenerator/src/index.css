@@ -1,0 +1,179 @@
+/*
+=============== 
+Variables
+===============
+*/
+
+:root {
+  /* dark shades of primary color*/
+  --clr-primary-1: hsl(205, 86%, 17%);
+  --clr-primary-2: hsl(205, 77%, 27%);
+  --clr-primary-3: hsl(205, 72%, 37%);
+  --clr-primary-4: hsl(205, 63%, 48%);
+  /* primary/main color */
+  --clr-primary-5: hsl(205, 78%, 60%);
+  /* lighter shades of primary color */
+  --clr-primary-6: hsl(205, 89%, 70%);
+  --clr-primary-7: hsl(205, 90%, 76%);
+  --clr-primary-8: hsl(205, 86%, 81%);
+  --clr-primary-9: hsl(205, 90%, 88%);
+  --clr-primary-10: hsl(205, 100%, 96%);
+  /* darkest grey - used for headings */
+  --clr-grey-1: hsl(209, 61%, 16%);
+  --clr-grey-2: hsl(211, 39%, 23%);
+  --clr-grey-3: hsl(209, 34%, 30%);
+  --clr-grey-4: hsl(209, 28%, 39%);
+  /* grey used for paragraphs */
+  --clr-grey-5: hsl(210, 22%, 49%);
+  --clr-grey-6: hsl(209, 23%, 60%);
+  --clr-grey-7: hsl(211, 27%, 70%);
+  --clr-grey-8: hsl(210, 31%, 80%);
+  --clr-grey-9: hsl(212, 33%, 89%);
+  --clr-grey-10: hsl(210, 36%, 96%);
+  --clr-white: #fff;
+  --clr-red-dark: hsl(360, 67%, 44%);
+  --clr-red-light: hsl(360, 71%, 66%);
+  --clr-green-dark: hsl(125, 67%, 44%);
+  --clr-green-light: hsl(125, 71%, 66%);
+  --clr-black: #222;
+  --transition: all 0.3s linear;
+  --spacing: 0.1rem;
+  --radius: 0.25rem;
+  --light-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+  --dark-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+  --max-width: 1170px;
+  --fixed-width: 620px;
+}
+/*
+=============== 
+Global Styles
+===============
+*/
+
+*,
+::after,
+::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen,
+    Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  background: var(--clr-grey-10);
+  color: var(--clr-grey-1);
+  line-height: 1.5;
+  font-size: 0.875rem;
+}
+
+/* my css */
+
+/* top, title, form */
+
+#top{
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  height: 100px;
+  padding: 2rem;
+  align-items: center;
+}
+
+h2 {
+  font-size: 1.75rem;
+  letter-spacing: var(--spacing);
+}
+
+form {
+  padding-left: 1.75rem;
+
+}
+
+#text_input {
+  padding: 0.5rem 1.2rem;
+  font-size: 1.2rem;
+  border-top-left-radius: var(--radius);
+  border-bottom-left-radius: var(--radius);
+}
+
+#button {
+  padding: 0.6rem 1.2rem;
+  font-size: 1.2rem;
+  border: none;
+  color: white;
+  background: var(--clr-primary-5);
+  border-bottom-right-radius: var(--radius) ;
+  border-top-right-radius: var(--radius) ;
+}
+
+/* color items/blocks */
+
+#color_container {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(220px, auto));
+  
+  
+  width: 100%;
+  height: 100%;
+}
+
+.block {
+  display: flex;
+  flex-direction: column;
+  min-width: 220px;
+  min-height: 96px;
+  height: calc((100vh - 100px)/3);
+  padding: 1rem 1.5rem;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+.copied {
+  margin-top: 0.5rem;
+  color: var(--clr-grey-5);
+}
+
+@media only screen and (max-width: 1540px) {
+  .block {
+    height: calc((100vh - 100px)/4);
+  }
+}
+
+@media only screen and (max-width: 1320px) {
+  .block {
+    height: calc((100vh - 100px)/5);
+  }
+}
+
+@media only screen and (max-width: 1100px) {
+  .block {
+    height: calc((100vh - 100px)/6);
+  }
+}
+
+@media only screen and (max-width: 880px) {
+  .block {
+    height: calc((100vh - 100px)/7);
+  }
+}
+
+@media only screen and (max-width: 800px) {
+  h2 {
+    font-size: 1.25rem;
+  }
+  #text_input {
+    width: 40vw;
+  }
+}
+
+@media only screen and (max-width: 660px) {
+  .block {
+    height: 96px;
+  }
+  h2 {
+    font-size: 1rem;
+  }
+  #button, #text_input {
+    font-size: 0.875rem;
+  }
+}
