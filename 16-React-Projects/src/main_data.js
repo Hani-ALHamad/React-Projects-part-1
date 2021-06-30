@@ -22,7 +22,8 @@ const main_data = [
         img: one,
         url: "https://hani-alhamad-react-projects-1-birthday-reminder.netlify.app/",
         github: "https://github.com/Hani-ALHamad/React-Projects-part-1/tree/main/01%20-%20BirthdayReminder/src",
-        details: "1-BirthdayReminder"
+        details: "1-BirthdayReminder",
+        tech:[{name:"useState", color:"red"}]
     },
     {
         id: 2,
@@ -30,7 +31,8 @@ const main_data = [
         img: two,
         url: "https://hani-alhamad-react-projects-2-tours.netlify.app/",
         github: "https://github.com/Hani-ALHamad/React-Projects-part-1/tree/main/02%20-%20Tours/src",
-        details: "2-Tours"
+        details: "2-Tours",
+        tech: [{ name: "useState", color: "red" }, {name:"useEffect", color:"blue"}]
     },
     {
         id: 3,
@@ -38,7 +40,8 @@ const main_data = [
         img: three,
         url: "https://hani-alhamad-react-projects-3-reviews.netlify.app/",
         github: "https://github.com/Hani-ALHamad/React-Projects-part-1/tree/main/03%20-%20Reviews/src",
-        details: "3-Reviews"
+        details: "3-Reviews",
+        tech: [{ name: "useState", color: "red" }]
     },
     {
         id: 4,
@@ -46,7 +49,8 @@ const main_data = [
         img: four,
         url: "https://hani-alhamad-react-projects-4-accordion.netlify.app/",
         github: "https://github.com/Hani-ALHamad/React-Projects-part-1/tree/main/04%20-%20Accordion/src",
-        details: "4-Accordion"
+        details: "4-Accordion",
+        tech: [{ name: "useState", color: "red" }]
     },
     {
         id: 5,
@@ -55,6 +59,7 @@ const main_data = [
         url: "https://hani-alhamad-react-projects-5-menu.netlify.app/",
         github: "https://github.com/Hani-ALHamad/React-Projects-part-1/tree/main/05%20-%20Menu/src",
         details: "5-Menu",
+        tech: [{ name: "useState", color: "red" }]
     },
     {
         id: 6,
@@ -62,7 +67,8 @@ const main_data = [
         img: six,
         url: "https://hani-alhamad-react-projects-6-tabs.netlify.app/",
         github: "https://github.com/Hani-ALHamad/React-Projects-part-1/tree/main/06%20-%20Tabs/src",
-        details: "6-Tabs"
+        details: "6-Tabs",
+        tech: [{ name: "useState", color: "red" }, { name: "useEffect", color: "blue" }]
     },
     {
         id: 7,
@@ -70,7 +76,8 @@ const main_data = [
         img: seven,
         url: "https://hani-alhamad-react-projects-7-slider.netlify.app/",
         github: "https://github.com/Hani-ALHamad/React-Projects-part-1/tree/main/07%20-%20Slider/src",
-        details: "7-Slider"
+        details: "7-Slider",
+        tech: [{ name: "useState", color: "red" }, { name: "useEffect", color: "blue" }]
     },
     {
         id: 8,
@@ -78,7 +85,8 @@ const main_data = [
         img: eight,
         url: "https://hani-alhamad-react-projects-8-lorem-ipsum.netlify.app/",
         github: "https://github.com/Hani-ALHamad/React-Projects-part-1/tree/main/08%20-%20LoremIpsum/src",
-        details: "8-LoremIpsum"
+        details: "8-LoremIpsum",
+        tech: [{ name: "useState", color: "red" }]
     },
     {
         id: 9,
@@ -86,7 +94,8 @@ const main_data = [
         img: nine,
         url: "https://hani-alhamad-react-projects-9-color-generator.netlify.app/",
         github: "https://github.com/Hani-ALHamad/React-Projects-part-1/tree/main/09%20-%20ColorGenerator/src",
-        details: "9-ColorGenerator"
+        details: "9-ColorGenerator",
+        tech: [{ name: "useState", color: "red" }, { name: "useEffect", color: "blue" }]
     },
     {
         id: 10,
@@ -94,7 +103,8 @@ const main_data = [
         img: ten,
         url: "https://hani-alhamad-react-projects-10-grocery-bud.netlify.app/",
         github: "https://github.com/Hani-ALHamad/React-Projects-part-1/tree/main/10%20-%20GroceryBud/src",
-        details: "10-GroceryBud"
+        details: "10-GroceryBud",
+        tech: [{ name: "useState", color: "red" }, { name: "useEffect", color: "blue" }]
     },
     {
         id: 11,
@@ -102,7 +112,8 @@ const main_data = [
         img: eleven,
         url: "https://hani-alhamad-react-projects-11-navbar.netlify.app/",
         github: "https://github.com/Hani-ALHamad/React-Projects-part-1/tree/main/11%20-%20Navbar/src",
-        details: "11-Navbar"
+        details: "11-Navbar",
+        tech: [{ name: "useState", color: "red" }]
     },
     {
         id: 12,
@@ -110,7 +121,12 @@ const main_data = [
         img: twelve,
         url: "https://hani-alhamad-react-projects-12-sidebar-modal.netlify.app/",
         github: "https://github.com/Hani-ALHamad/React-Projects-part-1/tree/main/12%20-%20Sidebar%26Modal/src",
-        details: "12-Sidebar&Modal"
+        details: "12-Sidebar&Modal",
+        tech: [
+            { name: "useState", color: "red" }, 
+            { name: "useEffect", color: "blue" }, 
+            { name: "useContext", color: "green" }
+        ]
     },
     {
         id: 13,
@@ -118,7 +134,12 @@ const main_data = [
         img: thirteen,
         url: "https://hani-alhamad-react-projects-13-stripe-menu.netlify.app/",
         github: "https://github.com/Hani-ALHamad/React-Projects-part-1/tree/main/13%20-%20StripeMenu/src",
-        details: "13-StripeMenu"
+        details: "13-StripeMenu",
+        tech: [
+            { name: "useState", color: "red" }, 
+            { name: "useEffect", color: "blue" }, 
+            { name: "useContext", color: "green" }
+        ]
     },
     {
         id: 14,
@@ -126,7 +147,13 @@ const main_data = [
         img: fourteen,
         url: "https://hani-alhamad-react-projects-14-cart.netlify.app/",
         github: "https://github.com/Hani-ALHamad/React-Projects-part-1/tree/main/14%20-%20Cart/src",
-        details: "14-Cart"
+        details: "14-Cart",
+        tech: [
+            { name: "useState", color: "red" }, 
+            { name: "useEffect", color: "blue" }, 
+            { name: "useContext", color: "green" }, 
+            { name: "useReducer", color: "yellow" }
+        ]
     },
     {
         id: 15,
@@ -134,7 +161,15 @@ const main_data = [
         img: fifteen,
         url: "https://hani-alhamad-react-projects-15-cocktails.netlify.app/",
         github: "https://github.com/Hani-ALHamad/React-Projects-part-1/tree/main/15%20-%20Cocktails/src",
-        details: "15-Cocktails"
+        details: "15-Cocktails",
+        tech: [
+            { name: "useState", color: "red" }, 
+            { name: "useEffect", color: "blue" }, 
+            { name: "useContext", color: "green" }, 
+            { name: "useCallback", color: "purple" }, 
+            { name: "useParams", color: "grey" }, 
+            { name: "React Router", color: "orange" }
+        ]
     },
     {
         id: 16,
@@ -142,7 +177,13 @@ const main_data = [
         img: bonus,
         url: "#",
         github: "",
-        details: "16-bonus"
+        details: "16-bonus",
+        tech: [
+            { name: "useState", color: "red" }, 
+            { name: "useEffect", color: "blue" }, 
+            { name: "useContext", color: "green" }, 
+            { name: "React Router", color: "orange" }
+        ]
     }
 ]
 
