@@ -14,6 +14,11 @@ const Item = ({item, index}) => {
         <a className="item_project_button" href={item.url} target="_blank" rel="noreferrer">Go to Project&ensp; <FiExternalLink /></a>
         <Link className="item_details_button" onClick={() => changeCurrentIndex(index)} to={`/details/${item.details}`}>See more</Link>
       </div>
+      <div className="item_tech_box">
+        {item.tech.map((one) =>(
+          <span className={`item_tech_item ${one.color}`}>{one.name}</span>
+        ))}
+      </div>
     </div>
     )
 }
