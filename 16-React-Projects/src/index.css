@@ -152,7 +152,7 @@ h2 {
   border-radius: .5rem;
   box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
   transition: var(--transition);
-  
+  overflow: hidden;
 }
 
 .item_container:hover {
@@ -265,6 +265,59 @@ h2 {
   color: rgb(255, 205, 66);
   background: black;
   font-weight: 600;
+}
+
+.item_tech_box {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin: 0.5rem;
+}
+
+.item_container:hover .item_tech_item {
+  height: 0;
+  opacity: 0;
+}
+
+.item_tech_item {
+  margin-right: 0.3rem;
+  margin-bottom: 0.1rem;
+  display: flex;
+  padding: 0 0.2rem ;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  border-radius: 0.75rem;
+  font-size: 0.8rem;
+  height: 18px;
+  transition: var(--transition);
+}
+
+.red {
+  background-color: rgba(255, 0, 0, 0.4);
+  
+}
+
+.blue {
+  background-color: rgba(0, 0, 255, 0.4);
+}
+
+.green {
+  background-color: rgba(0, 128, 0, 0.4);
+}
+
+.purple {
+  background-color: rgba(128, 0, 128, 0.4);
+}
+
+.grey {
+  background-color: rgba(128, 128, 128, 0.4);
+}
+
+.orange {
+  background-color: rgba(255, 165, 0, 0.4);
+}
+
+.yellow {
+  background-color: rgb(255, 255, 0, 0.4);
 }
 
 /* 404 */
