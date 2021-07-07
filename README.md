@@ -7,7 +7,7 @@
 • I used React JS (details below)* and normal CSS to build these projects.  
 • I made their CSS to be compatible with mobile devices (dynamic width).  
 • These files are development build, I made production builds and uploaded them to Netlify.  
-• Part 2: *not ready yet*
+• Part 2: https://hani-alhamad-react-projects-part-2.netlify.app/
 
 
 
